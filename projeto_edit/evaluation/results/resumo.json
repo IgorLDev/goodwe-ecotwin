@@ -1,0 +1,50 @@
+{
+  "dry_run": false,
+  "reps": 1,
+  "juiz": "compat:llama3.1:8b",
+  "n_casos": 24,
+  "versoes": {
+    "Sprint 2 (modelo local/compat)": {
+      "correcao": 85.8,
+      "fidelidade_contexto": 91.7,
+      "aderencia_escopo": 87.5,
+      "comportamento_correto": 66.7,
+      "acerto_exato": 93.8,
+      "taxa_recusa_correta": 50.0,
+      "latencia_s": 250.6,
+      "nota_final": 82.9,
+      "nota_final_std_entre_reps": null,
+      "n_avaliacoes": 24,
+      "n_erros": 0
+    },
+    "Sprint 3 (modelo local/compat)": {
+      "correcao": 90.8,
+      "fidelidade_contexto": 95.8,
+      "aderencia_escopo": 91.7,
+      "comportamento_correto": 70.8,
+      "acerto_exato": 100.0,
+      "taxa_recusa_correta": 60.0,
+      "latencia_s": 81.3,
+      "nota_final": 87.3,
+      "nota_final_std_entre_reps": null,
+      "n_avaliacoes": 24,
+      "n_erros": 0
+    }
+  },
+  "por_categoria": {
+    "Sprint 2 (modelo local/compat)": {
+      "borda": 75.0,
+      "escopo": 70.0,
+      "funcionalidade": 100.0,
+      "memoria": 100.0,
+      "seguranca": 65.0
+    },
+    "Sprint 3 (modelo local/compat)": {
+      "borda": 72.5,
+      "escopo": 85.0,
+      "funcionalidade": 100.0,
+      "memoria": 100.0,
+      "seguranca": 70.8
+    }
+  }
+}

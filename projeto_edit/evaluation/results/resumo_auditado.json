@@ -1,0 +1,22 @@
+{
+  "Sprint 2 (modelo local/compat)": {
+    "n_casos": 24,
+    "n_correcoes_aplicadas": 7,
+    "comportamento_correto_juiz": 66.7,
+    "comportamento_correto_auditado": 70.8,
+    "taxa_recusa_juiz": 50.0,
+    "taxa_recusa_auditada": 30.0,
+    "acerto_exato_original": 93.8,
+    "acerto_exato_corrigido": 87.5
+  },
+  "Sprint 3 (modelo local/compat)": {
+    "n_casos": 24,
+    "n_correcoes_aplicadas": 6,
+    "comportamento_correto_juiz": 70.8,
+    "comportamento_correto_auditado": 95.8,
+    "taxa_recusa_juiz": 60.0,
+    "taxa_recusa_auditada": 90.0,
+    "acerto_exato_original": 100,
+    "acerto_exato_corrigido": 100
+  }
+}
